@@ -1,0 +1,25 @@
+#登录接口用例
+-
+  username: auto
+  password: sdfsdfsdf
+-
+  retcode: 0
+---
+-
+  username: ""
+  password: sdfsdfsdf
+-
+  retcode: 1
+---
+-
+  username: auto
+  password: ""
+-
+  retcode: 1
+
+---
+-
+  username: ""
+  password: ""
+-
+  retcode: 1

@@ -1,0 +1,104 @@
+{
+  "uid" : "5b6de803a72c3c75",
+  "name" : "登录接口用例",
+  "fullName" : "testcase_excel.test_login.Test_login#testlogin",
+  "historyId" : "744b1b430e91ea567fb7a2f999dedb04",
+  "time" : {
+    "start" : 1594607323391,
+    "stop" : 1594607323769,
+    "duration" : 378
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1594607321699,
+      "stop" : 1594607323388,
+      "duration" : 1689
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup::fin",
+    "time" : {
+      "start" : 1594607324758,
+      "stop" : 1594607325155,
+      "duration" : 397
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录接口"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase_excel"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_login"
+  }, {
+    "name" : "host",
+    "value" : "Vampire-PC"
+  }, {
+    "name" : "thread",
+    "value" : "9076-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase_excel.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "0"
+  }, {
+    "name" : "password",
+    "value" : "'sdfsdfsdf'"
+  }, {
+    "name" : "username",
+    "value" : "'auto'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=3)" ]
+  },
+  "source" : "5b6de803a72c3c75.json",
+  "parameterValues" : [ "0", "'sdfsdfsdf'", "'auto'" ]
+}

@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "73ce4b9d3248d48af7ba85d9a89ff156",
+    "name" : "testcase_excel",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 49,
+      "unknown" : 0,
+      "total" : 49
+    }
+  }, {
+    "uid" : "2e7f5e6af7b32ec2231751174c8a2e14",
+    "name" : "testcase_yaml",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 30,
+      "unknown" : 0,
+      "total" : 30
+    }
+  } ]
+}

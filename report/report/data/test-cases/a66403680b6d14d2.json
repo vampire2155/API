@@ -1,0 +1,141 @@
+{
+  "uid" : "a66403680b6d14d2",
+  "name" : "删除课程接口用例",
+  "fullName" : "testcase_excel.test_lesson.Test_lesson#test_delete_lesson",
+  "historyId" : "2c46b4189b82afb03c067bbcdf9648b7",
+  "time" : {
+    "start" : 1594607320696,
+    "stop" : 1594607320717,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1594607317732,
+      "stop" : 1594607318527,
+      "duration" : 795
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "第一步、获取测试结果",
+      "time" : {
+        "start" : 1594607320696,
+        "stop" : 1594607320716,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "第二步、判断用例执行结果是否与预期结果相同",
+      "time" : {
+        "start" : 1594607320716,
+        "stop" : 1594607320716,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup::fin",
+    "time" : {
+      "start" : 1594607320896,
+      "stop" : 1594607321683,
+      "duration" : 787
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "课程模块"
+  }, {
+    "name" : "story",
+    "value" : "删除课程接口"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase_excel"
+  }, {
+    "name" : "suite",
+    "value" : "test_lesson"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_lesson"
+  }, {
+    "name" : "host",
+    "value" : "Vampire-PC"
+  }, {
+    "name" : "thread",
+    "value" : "9076-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase_excel.test_lesson"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "2"
+  }, {
+    "name" : "lessonData",
+    "value" : "{'action': 'delete_course', 'id': '%'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=3)" ]
+  },
+  "source" : "a66403680b6d14d2.json",
+  "parameterValues" : [ "2", "{'action': 'delete_course', 'id': '%'}" ]
+}

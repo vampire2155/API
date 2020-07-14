@@ -1,0 +1,159 @@
+{
+  "uid" : "e43a47f6e5be7dc1",
+  "name" : "登录接口",
+  "fullName" : "testcase_yaml.test_login_yaml.Test_login_yaml#test_login_yaml",
+  "historyId" : "f6e16d30c0d4880b5cf9a44b1a476289",
+  "time" : {
+    "start" : 1594607330619,
+    "stop" : 1594607330983,
+    "duration" : 364
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1594607328694,
+      "stop" : 1594607329170,
+      "duration" : 476
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "第一步、获取执行结果",
+      "time" : {
+        "start" : 1594607330620,
+        "stop" : 1594607330983,
+        "duration" : 363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "第二步、获取用例的预期结果",
+      "time" : {
+        "start" : 1594607330983,
+        "stop" : 1594607330983,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "第三步、判断执行结果是否与预期结果相同",
+      "time" : {
+        "start" : 1594607330983,
+        "stop" : 1594607330983,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup::fin",
+    "time" : {
+      "start" : 1594607330997,
+      "stop" : 1594607331518,
+      "duration" : 521
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录接口用例"
+  }, {
+    "name" : "tag",
+    "value" : "LoginClass"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase_yaml"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_yaml"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_login_yaml"
+  }, {
+    "name" : "host",
+    "value" : "Vampire-PC"
+  }, {
+    "name" : "thread",
+    "value" : "9076-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase_yaml.test_login_yaml"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expexcted_result",
+    "value" : "1"
+  }, {
+    "name" : "psd",
+    "value" : "''"
+  }, {
+    "name" : "usrname",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "LoginClass" ]
+  },
+  "source" : "e43a47f6e5be7dc1.json",
+  "parameterValues" : [ "1", "''", "''" ]
+}
