@@ -1,10 +1,12 @@
 #登录接口用例
+#yaml的语法：1、大小写敏感   2、使用缩进表示层级   3、缩进时不允许使用tab键，只允许使用空格    
+#4、缩进的空格数据不重要，只要相同层级的元素 左侧对齐即可      5、使用  #  号进行注释    
 -
-  username: auto
+  username: auto       # 值与冒号之间必须要有空格
   password: sdfsdfsdf
 -
   retcode: 0
----
+---    #表示文件开始，或者是分隔符
 -
   username: ""
   password: sdfsdfsdf

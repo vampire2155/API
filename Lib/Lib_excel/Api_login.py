@@ -15,4 +15,5 @@ class LoginClass():
         res.encoding = 'unicode-escape'
         return res.cookies,res.text
 if __name__ == '__main__':
-    print (LoginClass().login_Api('auto','sdfsdfsdf')[1])
+    # print (LoginClass().login_Api('auto','sdfsdfsdf'))
+    print (LoginClass().login_Api('auto','sdfsdfsdf')[0]['sessionid'])
